@@ -1,0 +1,46 @@
+Windows Registry Editor Version 5.00
+
+; CONTEXT MENU
+
+; sync
+[-HKEY_CLASSES_ROOT\*\shellex\ContextMenuHandlers\ FileSyncEx]
+[-HKEY_CLASSES_ROOT\*\shellex\ContextMenuHandlers\BriefcaseMenu]
+[-HKEY_CLASSES_ROOT\*\shellex\ContextMenuHandlers\WorkFolders]
+[-HKEY_CLASSES_ROOT\Directory\Background\shellex\ContextMenuHandlers\ FileSyncEx]
+[-HKEY_CLASSES_ROOT\Directory\Background\shellex\ContextMenuHandlers\WorkFolders]
+[-HKEY_CLASSES_ROOT\Directory\shellex\ContextMenuHandlers\ FileSyncEx]
+[-HKEY_CLASSES_ROOT\Directory\shellex\ContextMenuHandlers\Offline Files]
+[-HKEY_CLASSES_ROOT\Directory\shellex\ContextMenuHandlers\WorkFolders]
+[-HKEY_CLASSES_ROOT\Folder\shellex\ContextMenuHandlers\BriefcaseMenu]
+[-HKEY_CLASSES_ROOT\Folder\shellex\ContextMenuHandlers\Offline Files]
+
+;library
+[-HKEY_CLASSES_ROOT\Folder\shellex\ContextMenuHandlers\Library Location]
+
+; share
+[-HKEY_CLASSES_ROOT\*\shellex\ContextMenuHandlers\Sharing]
+[-HKEY_CLASSES_ROOT\Directory\Background\shellex\ContextMenuHandlers\Sharing]
+[-HKEY_CLASSES_ROOT\Directory\shellex\ContextMenuHandlers\Sharing]
+[-HKEY_CLASSES_ROOT\Drive\shellex\ContextMenuHandlers\Sharing]
+[-HKEY_CLASSES_ROOT\LibraryFolder\background\shellex\ContextMenuHandlers\Sharing]
+[-HKEY_CLASSES_ROOT\UserLibraryFolder\shellex\ContextMenuHandlers\Sharing]
+
+; encrypt
+[-HKEY_CLASSES_ROOT\Drive\shell\encrypt-bde]
+[-HKEY_CLASSES_ROOT\Drive\shell\encrypt-bde-elev]
+[-HKEY_CLASSES_ROOT\Drive\shell\manage-bde]
+[-HKEY_CLASSES_ROOT\Drive\shell\resume-bde]
+[-HKEY_CLASSES_ROOT\Drive\shell\resume-bde-elev]
+[-HKEY_CLASSES_ROOT\Drive\shell\unlock-bde]
+[-HKEY_CLASSES_ROOT\Directory\shellex\ContextMenuHandlers\EncryptionMenu]
+
+; previous version
+[-HKEY_CLASSES_ROOT\AllFilesystemObjects\shellex\ContextMenuHandlers\{596AB062-B4D2-4215-9F74-E9109B0A8153}]
+[-HKEY_CLASSES_ROOT\CLSID\{450D8FBA-AD25-11D0-98A8-0800361B1103}\shellex\ContextMenuHandlers\{596AB062-B4D2-4215-9F74-E9109B0A8153}]
+[-HKEY_CLASSES_ROOT\Directory\shellex\ContextMenuHandlers\{596AB062-B4D2-4215-9F74-E9109B0A8153}]
+[-HKEY_CLASSES_ROOT\Drive\shellex\ContextMenuHandlers\{596AB062-B4D2-4215-9F74-E9109B0A8153}]
+
+; soft
+[-HKEY_CLASSES_ROOT\Directory\Background\shellex\ContextMenuHandlers\igfxcui]
+[-HKEY_CLASSES_ROOT\Directory\Background\shellex\ContextMenuHandlers\igfxDTCM]
+[-HKEY_CLASSES_ROOT\Google.PhotoViewer.3.0\Shell\Upload To Web Albums]
