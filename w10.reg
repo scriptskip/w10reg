@@ -44,3 +44,7 @@ Windows Registry Editor Version 5.00
 [-HKEY_CLASSES_ROOT\Directory\Background\shellex\ContextMenuHandlers\igfxcui]
 [-HKEY_CLASSES_ROOT\Directory\Background\shellex\ContextMenuHandlers\igfxDTCM]
 [-HKEY_CLASSES_ROOT\Google.PhotoViewer.3.0\Shell\Upload To Web Albums]
+
+;BOOT
+[HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows\System]
+"DisableLogonBackgroundImage"=dword:00000001
