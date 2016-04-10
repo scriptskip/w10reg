@@ -41,8 +41,14 @@ Windows Registry Editor Version 5.00
 [-HKEY_CLASSES_ROOT\Drive\shellex\ContextMenuHandlers\{596AB062-B4D2-4215-9F74-E9109B0A8153}]
 
 ; soft
+[-HKEY_CLASSES_ROOT\*\shellex\ContextMenuHandlers\7-Zip]
+[-HKEY_CLASSES_ROOT\Directory\Background\shell\git_gui]
+[-HKEY_CLASSES_ROOT\Directory\Background\shell\git_shell]
 [-HKEY_CLASSES_ROOT\Directory\Background\shellex\ContextMenuHandlers\igfxcui]
 [-HKEY_CLASSES_ROOT\Directory\Background\shellex\ContextMenuHandlers\igfxDTCM]
+[-HKEY_CLASSES_ROOT\Directory\shell\git_gui]
+[-HKEY_CLASSES_ROOT\Directory\shell\git_shell]
+[-HKEY_CLASSES_ROOT\Directory\shellex\ContextMenuHandlers\7-Zip]
 [-HKEY_CLASSES_ROOT\Google.PhotoViewer.3.0\Shell\Upload To Web Albums]
 
 ;BOOT
